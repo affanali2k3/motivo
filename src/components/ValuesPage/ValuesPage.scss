@@ -1,0 +1,85 @@
+@import "/src/variables.scss";
+
+.values-page-main-div {
+  height: 100vh;
+  background: $secondaryColor;
+  position: relative;
+  overflow: hidden;
+
+  .we-are-here-to-help {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      padding: 2%;
+      border-radius: 20px;
+      text-align: center;
+      background-color: $primaryColor;
+      max-width: 40%;
+      font-size: 58px;
+      font-family: nunito;
+    }
+  }
+  .want-to-find-out {
+    display: none;
+  }
+
+  .values-page-moving-values {
+    font-size: 165px;
+    position: absolute;
+    bottom: 15vh;
+    transform: rotate(-15deg);
+  }
+}
+
+@media screen and (max-width: $medium-screen) {
+  .values-page-main-div {
+    .we-are-here-to-help {
+      h2 {
+        border-radius: 20px;
+        max-width: 40%;
+        font-size: 38px;
+      }
+    }
+
+    .values-page-moving-values {
+      font-size: 105px;
+      transform: rotate(-15deg);
+    }
+  }
+}
+@media screen and (max-width: $mobile-screen) {
+  .values-page-main-div {
+    .we-are-here-to-help {
+      h2 {
+        border-radius: 20px;
+        max-width: 80%;
+        font-size: 28px;
+      }
+    }
+
+    .values-page-moving-values {
+      //   position: relative;
+      font-size: 65px;
+      bottom: 56vh;
+      transform: rotate(-15deg);
+    }
+
+    .want-to-find-out {
+      margin-top: 30vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        padding: 2%;
+        border-radius: 20px;
+        text-align: center;
+        background-color: $primaryColor;
+        max-width: 80%;
+        font-size: 28px;
+        font-family: nunito;
+      }
+    }
+  }
+}

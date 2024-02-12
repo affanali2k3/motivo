@@ -1,0 +1,16 @@
+@import "/src/variables.scss";
+
+.services-display-page-main-div {
+  height: 100vh;
+  background: $primaryColor;
+  display: flex;
+  align-items: center;
+
+  .digital-marketing-service-card {
+    background: $secondaryColor;
+    padding: 3%;
+    margin-left: 10%;
+    border-radius: 20px;
+    width: 40vw;
+  }
+}

@@ -1,5 +1,17 @@
+@font-face {
+  font-family: lora;
+  src: url("/src/assets/fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  src: url("/src/assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: lora;
+  color: white;
 }

@@ -1,0 +1,14 @@
+@import "/src/variables.scss";
+.services-page-main-div {
+  height: 100vh;
+  background: $secondaryColor;
+  position: relative;
+  overflow-y: hidden;
+
+  .services-page-letters {
+    // width: 400vw;
+    font-size: 80vh;
+    letter-spacing: 20rem;
+    // background-color: white;
+  }
+}
