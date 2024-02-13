@@ -10,7 +10,30 @@
     background: $secondaryColor;
     padding: 3%;
     margin-left: 10%;
-    border-radius: 20px;
-    width: 40vw;
+    border-radius: 30px;
+    width: 50vw;
+    box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
+
+    .header {
+      font-size: 48px;
+      font-family: nunito;
+    }
+
+    .lower {
+      margin-top: 10%;
+      display: flex;
+      justify-content: space-between;
+      gap: 10%;
+
+      .learn-more {
+        font-size: 34px;
+        font-family: nunito;
+        font-weight: bold;
+      }
+
+      .para {
+        font-size: 24px;
+      }
+    }
   }
 }
