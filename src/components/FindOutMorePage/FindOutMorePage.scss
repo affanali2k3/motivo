@@ -1,0 +1,36 @@
+@import "/src/variables.scss";
+
+.find-out-more-page-main-div {
+  height: 100vh;
+  background: $secondaryColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .circular-text-image {
+    width: 40%;
+    position: absolute;
+  }
+
+  .call-to-action {
+    width: 20%;
+    height: 20vw;
+    border-radius: 200px;
+    background-color: $primaryColor;
+
+    .arrow-image {
+      transform: translate(10px, 4vw);
+      width: 15vw;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-screen) {
+  .find-out-more-page-main-div {
+    .call-to-action {
+      .arrow-image {
+        transform: translate(5px, 4vw);
+      }
+    }
+  }
+}

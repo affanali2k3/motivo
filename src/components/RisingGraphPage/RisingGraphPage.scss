@@ -1,0 +1,40 @@
+@import "/src/variables.scss";
+.rising-graphs-sales-main-div {
+  height: 100vh;
+  gap: 0.1%;
+  background: $primaryColor;
+  display: flex;
+  align-items: end;
+
+  .rising-div {
+    width: 10%;
+    height: 10px;
+    background: $secondaryColor;
+  }
+}
+.rising-graphs-effeciency-main-div {
+  height: 100vh;
+  gap: 0.1%;
+  background: $secondaryColor;
+  display: flex;
+  align-items: end;
+
+  .rising-div {
+    width: 10%;
+    height: 10px;
+    background: $primaryColor;
+  }
+}
+.rising-graphs-growth-main-div {
+  height: 100vh;
+  gap: 0.1%;
+  background: $secondaryColor;
+  display: flex;
+  align-items: end;
+
+  .rising-div {
+    width: 10%;
+    height: 10px;
+    background: #f2f2f2;
+  }
+}

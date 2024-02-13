@@ -7,12 +7,19 @@
   align-items: center;
 
   .digital-marketing-service-card {
-    background: $secondaryColor;
-    padding: 3%;
-    margin-left: 10%;
-    border-radius: 30px;
+    position: relative;
+    z-index: 1;
     width: 50vw;
-    box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
+    margin-left: 10%;
+
+    .content {
+      position: relative;
+      padding: 5%;
+      z-index: 1;
+      border-radius: 30px;
+      background: $secondaryColor;
+      box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
+    }
 
     .header {
       font-size: 48px;
@@ -33,6 +40,66 @@
 
       .para {
         font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $medium-screen) {
+  .services-display-page-main-div {
+    .digital-marketing-service-card {
+      .header {
+        font-size: 38px;
+        text-align: center;
+      }
+      .content {
+        padding: 10%;
+      }
+
+      .lower {
+        flex-direction: column-reverse;
+        .learn-more {
+          margin-top: 10%;
+          text-align: center;
+          font-size: 24px;
+        }
+
+        .para {
+          text-align: center;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-screen) {
+  .services-display-page-main-div {
+    align-items: end;
+    justify-content: end;
+    .digital-marketing-service-card {
+      width: calc(1000px - 80vw);
+      margin: 10%;
+      .header {
+        font-size: 28px;
+        text-align: center;
+      }
+      .content {
+        padding: 10%;
+      }
+
+      .lower {
+        flex-direction: column-reverse;
+        .learn-more {
+          margin-top: 10%;
+          text-align: center;
+          font-size: 18px;
+        }
+
+        .para {
+          text-align: center;
+          font-size: 16px;
+        }
       }
     }
   }

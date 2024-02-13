@@ -1,0 +1,12 @@
+@import "/src/variables.scss";
+
+.meet-our-team-hugging-model-main-div {
+  position: absolute;
+  pointer-events: none;
+}
+
+@media screen and (max-width: $mobile-screen) {
+  .meet-our-team-hugging-model-main-div {
+    transform: scale(0.6) translate(100px, -200px);
+  }
+}

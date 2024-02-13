@@ -1,0 +1,116 @@
+@import "/src/variables.scss";
+.meet-our-team-main-div {
+  height: 100vh;
+  background: $secondaryColor;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  .meet-our-team-content {
+    width: 38vw;
+    padding: 2%;
+    border-radius: 30px;
+    background: $primaryColor;
+    position: relative;
+    z-index: 1;
+    margin-right: 10%;
+    box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
+
+    .meet-our-team-heading {
+      font-size: 48px;
+      font-family: nunito;
+    }
+
+    .meet-our-team-lower-div {
+      display: flex;
+      margin-top: 10%;
+      gap: 10%;
+      .learn-more {
+        p {
+          font-size: 34px;
+          font-weight: bold;
+          font-family: nunito;
+        }
+      }
+
+      .meet-our-team-para {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $medium-screen) {
+  .meet-our-team-main-div {
+    .meet-our-team-content {
+      width: 45vw;
+      padding: 5%;
+      margin-right: 10%;
+
+      .meet-our-team-heading {
+        font-size: 38px;
+      }
+
+      .meet-our-team-lower-div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10%;
+        gap: 10%;
+        .learn-more {
+          text-align: center;
+          margin-top: 10%;
+          p {
+            font-size: 24px;
+          }
+        }
+
+        .meet-our-team-para {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-screen) {
+  .meet-our-team-main-div {
+    .meet-our-team-content {
+      width: calc(1000px - 80vw);
+      padding: 10%;
+      margin: 10%;
+      background: rgba(
+        255,
+        255,
+        255,
+        0.01
+      ); /* Semi-transparent white background */
+      backdrop-filter: blur(30px); /* Apply a blur effect to the background */
+      border-radius: 20px; /* Rounded corners for the container */
+      border: 1px solid rgba(255, 255, 255, 0.1); /* Border with some transparency */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1); /* Multiple shadows for depth */
+      overflow: hidden; /* Ensure content doesn't overflow */
+
+      .meet-our-team-heading {
+        font-size: 38px;
+      }
+
+      .meet-our-team-lower-div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10%;
+        gap: 10%;
+        .learn-more {
+          text-align: center;
+          margin-top: 10%;
+          p {
+            font-size: 24px;
+          }
+        }
+
+        .meet-our-team-para {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
