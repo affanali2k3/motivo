@@ -5,4 +5,24 @@
   border-radius: 10px;
   font-family: nunito;
   margin-top: 10%;
+  box-shadow: -2px 4px 9px 0px #00000033, -8px 15px 17px 0px #0000002b;
+  font-weight: bold;
+}
+
+.primary-button-main-div:hover {
+  background: #f2f2f2 !important;
+  color: black;
+  animation: buttonHover 1s forwards 1;
+}
+.primary-button-main-div:active {
+  background: #f2f2f2 !important;
+  color: black;
+}
+
+@keyframes buttonHover {
+  0% {
+  }
+  100% {
+    transform: translate(0, -10px);
+  }
 }

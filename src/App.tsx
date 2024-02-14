@@ -1,4 +1,6 @@
 import { FindOutMorePage } from "./components/FindOutMorePage/FindOutMorePage";
+import { Copyright } from "./components/Footer/Copyright";
+import { Footer } from "./components/Footer/Footer";
 import { Homepage } from "./components/Homepage/Homepage";
 import { MeetOurTeam } from "./components/MeetOurTeam/MeetOurTeam";
 import { PortfolioHorizontalScrollingPage } from "./components/PortfolioHorizontalScrolling/PortfolioHorizontalScrolling";
@@ -22,6 +24,8 @@ function App() {
       <PortfolioHorizontalScrollingPage />
       <FindOutMorePage />
       <RisingGraphGrowthPage />
+      <Footer />
+      <Copyright />
     </>
   );
 }

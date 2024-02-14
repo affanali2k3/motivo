@@ -5,6 +5,8 @@
   background: $primaryColor;
   display: flex;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 
   .digital-marketing-service-card {
     position: relative;
