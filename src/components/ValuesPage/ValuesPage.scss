@@ -5,6 +5,10 @@
   background: $secondaryColor;
   position: relative;
   overflow: hidden;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0 -5px 12px 0 #00000026, 0 -21px 21px 0 #00000021,
+    0 -86px 34px 0 #00000005, 0 -134px 37px 0 #00000000;
 
   .we-are-here-to-help {
     margin-top: 10vh;

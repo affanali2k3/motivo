@@ -1,8 +1,21 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
-
 import "./ValuesPage.scss";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap/all";
+
 export const ValuesPage = () => {
+  useGSAP(() => {
+    gsap.to(".values-page-main-div", {
+      y: -200,
+      marginBottom: -200,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".homepage-main-div",
+        start: "0% bottom",
+      },
+      // pause: true,
+    });
+  }, []);
   return (
     <section className="values-page-main-div">
       <div className="we-are-here-to-help">
