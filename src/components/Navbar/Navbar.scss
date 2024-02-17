@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 10%;
+  // top: 10%;
   position: absolute;
   z-index: 3;
   background: $primaryColor;
@@ -12,6 +12,7 @@
   width: 100vw;
   padding: 4%;
   display: none;
+  position: fixed;
 
   .mobile-align-div {
     display: flex;
@@ -47,6 +48,10 @@
   width: 100%;
   z-index: 2;
 
+  .navbar-menu {
+    display: none;
+  }
+
   .navbar-brand-name {
     font-family: nunito;
     font-size: 44px;
@@ -63,6 +68,10 @@
       font-size: 32px;
     }
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: $medium-screen) {
@@ -88,6 +97,12 @@
     padding: 2% 4%;
     justify-content: space-between;
 
+    .navbar-menu {
+      display: block;
+      position: relative;
+      z-index: 4;
+    }
+
     .navbar-brand-name {
       font-size: 34px;
     }
@@ -100,7 +115,7 @@
       }
     }
     .navbar-menu {
-      transition: 2s;
+      transition: 0.5s;
       // transform: rotate(180deg);
     }
   }

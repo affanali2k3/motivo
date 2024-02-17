@@ -3,19 +3,28 @@
 .homepage-standing-model-main-div {
   width: auto !important;
   height: auto !important;
+  // display: inline;
   position: absolute;
   bottom: 0;
-  right: 10%;
+  right: 0;
   z-index: 0;
 
   canvas {
-    height: 90vh !important;
+    height: 165vh !important;
     width: auto !important;
+    pointer-events: none;
+    transform: translateY(45%);
   }
 }
 
 @media screen and (max-width: $mobile-screen) {
   .homepage-standing-model-main-div {
-    right: -20%;
+    left: 20%;
+    canvas {
+      height: 125vh !important;
+      width: auto !important;
+      pointer-events: none;
+      transform: translateY(22%);
+    }
   }
 }

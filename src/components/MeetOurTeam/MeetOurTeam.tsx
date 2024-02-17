@@ -1,3 +1,4 @@
+import { ArrowButton } from "../ArrowButton/ArrowButton";
 import { MeetOurTeamHuggingModel } from "../MeetOurTeamHuggingModel/MeetOurTeamHuggingModel";
 import { PrimaryButton } from "../PrimaryButton/PrimaryButton";
 import "./MeetOurTeam.scss";
@@ -11,7 +12,11 @@ export const MeetOurTeam = () => {
         <div className="meet-our-team-lower-div">
           <div className="learn-more">
             <p>learn more!</p>
-            <PrimaryButton text="MEET OUR TEAM" background="#17161b" />
+            {window.innerWidth > 800 ? (
+              <ArrowButton background="#17161b" />
+            ) : (
+              <PrimaryButton text="MEET OUR TEAM" background="#1b35c7" />
+            )}
           </div>
           <div className="meet-our-team-para">
             <p>

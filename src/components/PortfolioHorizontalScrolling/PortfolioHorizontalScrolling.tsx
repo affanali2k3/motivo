@@ -36,11 +36,14 @@ export const PortfolioHorizontalScrollingPage = () => {
       pin: true,
       animation: tween,
       scrub: 1, // For easing the animation
-      markers: true, // Shows markers for debugging
+      // markers: true, // Shows markers for debugging
     });
   }, []);
   return (
-    <section className="portfolio-page-main-div">
+    <section
+      id="portfolio-horizontal-scrolling-page"
+      className="portfolio-page-main-div"
+    >
       <h2 id="portfolio-word" className="portfolio-page-letters">
         PORTFOLIO
       </h2>

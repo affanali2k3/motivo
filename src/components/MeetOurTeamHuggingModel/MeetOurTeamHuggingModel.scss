@@ -3,10 +3,18 @@
 .meet-our-team-hugging-model-main-div {
   position: absolute;
   pointer-events: none;
+  left: 15%;
+
+  transform: scale(0.9) translateY(-8%);
+  // overflow: hidden;
+  // top: 0;
 }
 
 @media screen and (max-width: $mobile-screen) {
   .meet-our-team-hugging-model-main-div {
-    transform: scale(0.6) translate(100px, -200px);
+    // right: 250%;
+    left: -50%;
+    top: -30%;
+    transform: scale(0.6) translate(0px, 0px);
   }
 }

@@ -35,12 +35,16 @@ export const ServicesHorizontalScrollingPage = () => {
       end: "+=" + amountToScroll,
       pin: true,
       animation: tween,
+      anticipatePin: 2,
       scrub: 1, // For easing the animation
       markers: true, // Shows markers for debugging
     });
   }, []);
   return (
-    <section className="services-page-main-div">
+    <section
+      id="services-horizontal-scrolling-page"
+      className="services-page-main-div"
+    >
       <h2 id="services-word" className="services-page-letters">
         SERVICES
       </h2>

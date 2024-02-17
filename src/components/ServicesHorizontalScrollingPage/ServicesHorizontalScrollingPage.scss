@@ -4,11 +4,11 @@
   background: $secondaryColor;
   position: relative;
   overflow-y: hidden;
+  display: flex;
+  align-items: center;
 
   .services-page-letters {
     // width: 400vw;
-    font-size: 80vh;
-    letter-spacing: 20rem;
-    // background-color: white;
+    font-size: 120vh;
   }
 }

@@ -17,19 +17,34 @@
     height: 20vw;
     border-radius: 200px;
     background-color: $primaryColor;
+    transition: all 0.1s ease-in-out;
 
     .arrow-image {
       transform: translate(10px, 4vw);
       width: 15vw;
     }
   }
+
+  .call-to-action:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: $mobile-screen) {
   .find-out-more-page-main-div {
+    .circular-text-image {
+      width: 80%;
+      position: absolute;
+    }
     .call-to-action {
+      width: 50%;
+      height: 50vw;
+
       .arrow-image {
-        transform: translate(5px, 4vw);
+        width: 40vw;
+
+        transform: translate(5px, 9vw);
       }
     }
   }

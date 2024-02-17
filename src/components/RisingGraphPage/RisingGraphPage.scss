@@ -1,15 +1,25 @@
 @import "/src/variables.scss";
 .rising-graphs-sales-main-div {
   height: 100vh;
+  // width: 500vw !important;
   gap: 0.1%;
   background: $primaryColor;
   display: flex;
   align-items: end;
 
+  .rising-graphs-background-text {
+    position: absolute;
+    font-size: 30vw;
+    width: 100%;
+    text-align: center;
+    bottom: 14%;
+  }
+
   .rising-div {
     width: 10%;
     height: 10px;
     background: $secondaryColor;
+    z-index: 1;
   }
 }
 .rising-graphs-effeciency-main-div {
@@ -19,10 +29,19 @@
   display: flex;
   align-items: end;
 
+  .rising-graphs-background-text {
+    position: absolute;
+    font-size: 14vw;
+    width: 100%;
+    text-align: center;
+    bottom: 34%;
+  }
+
   .rising-div {
     width: 10%;
     height: 10px;
     background: $primaryColor;
+    z-index: 1;
   }
 }
 .rising-graphs-growth-main-div {
@@ -32,9 +51,18 @@
   display: flex;
   align-items: end;
 
+  .rising-graphs-background-text {
+    position: absolute;
+    font-size: 18vw;
+    width: 100%;
+    text-align: center;
+    bottom: 34%;
+  }
+
   .rising-div {
     width: 10%;
     height: 10px;
     background: #f2f2f2;
+    z-index: 1;
   }
 }

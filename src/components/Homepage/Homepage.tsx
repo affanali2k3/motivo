@@ -3,7 +3,7 @@ import "./Homepage.scss";
 
 export const Homepage = () => {
   return (
-    <section className="homepage-main-div">
+    <section id="homepage" className="homepage-main-div">
       <HomepageStandingModel />
       <div className="homepage-content">
         <h1 className="homepage-content-title">WELCOME TO MOTIVO!</h1>

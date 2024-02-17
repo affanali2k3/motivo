@@ -2,11 +2,20 @@
 
 .services-display-page-main-div {
   height: 100vh;
-  background: $primaryColor;
-  display: flex;
-  align-items: center;
+  background: $secondaryColor;
   position: relative;
   overflow: hidden;
+
+  .services-display-corner-rounded-div {
+    height: 100%;
+    width: 100vw;
+    // min-height: 100vh;
+    background: $primaryColor;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
 
   .digital-marketing-service-card {
     position: relative;
@@ -23,8 +32,8 @@
       box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
     }
 
-    .header {
-      font-size: 48px;
+    .header h3 {
+      font-size: 58px;
       font-family: nunito;
     }
 
@@ -35,12 +44,21 @@
       gap: 10%;
 
       .learn-more {
-        font-size: 34px;
-        font-family: nunito;
-        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          font-size: 44px;
+          font-family: nunito;
+          font-weight: bold;
+        }
+        button {
+          margin-top: 10%;
+        }
       }
 
       .para {
+        flex-basis: 60%;
         font-size: 24px;
       }
     }
@@ -79,10 +97,16 @@
   .services-display-page-main-div {
     align-items: end;
     justify-content: end;
+
+    .services-display-corner-rounded-div {
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+    }
+
     .digital-marketing-service-card {
       width: calc(1000px - 80vw);
       margin: 10%;
-      .header {
+      .header h3 {
         font-size: 28px;
         text-align: center;
       }
@@ -93,12 +117,18 @@
       .lower {
         flex-direction: column-reverse;
         .learn-more {
-          margin-top: 10%;
-          text-align: center;
-          font-size: 18px;
+          button {
+            font-size: 14px;
+            padding: 14px 20px;
+          }
+          p {
+            margin-top: 10%;
+            text-align: center;
+            font-size: 28px;
+          }
         }
 
-        .para {
+        .para p {
           text-align: center;
           font-size: 16px;
         }
