@@ -25,3 +25,14 @@ html {
 body {
   background: $primaryColor;
 }
+
+
+::-webkit-scrollbar{
+  display: none;
+  width: 0;
+}
+
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
