@@ -18,6 +18,11 @@
     font-size: 18px;
   }
 }
+
+#fontIconMag{
+  color: #1b35c7 !important;
+}
+
 .footer-main-div {
   height: 90vh;
   background: #f2f2f2;
@@ -31,7 +36,7 @@
       width: 40vw;
       color: black;
       font-family: nunito;
-      font-size: 80px;
+      font-size: 60px;
 
       span {
         color: $primaryColor;
@@ -51,7 +56,7 @@
         font-size: 28px;
 
         font-family: nunito;
-        margin-top: 10%;
+        margin-top: 6%;
       }
 
       button {
