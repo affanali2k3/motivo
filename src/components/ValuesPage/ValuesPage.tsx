@@ -23,7 +23,7 @@ export const ValuesPage = () => {
         speed={window.innerWidth > 800 ? 200 : 100}
         className="values-page-moving-values"
       >
-        <strong> HONESTY, PATIENCE, EFFICIENCY, EFFORT, INTEGRITY,</strong>,{" "}
+        <strong> HONESTY, PATIENCE, EFFICIENCY, EFFORT, INTEGRITY</strong>,{" "} 
       </Marquee>
       <div className="want-to-find-out">
         <h2>WANT TO FIND OUT WHAT WE OFFER? </h2>
