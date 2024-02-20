@@ -6,12 +6,11 @@
   align-items: center;
   justify-content: end;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
 
   .meet-our-team-content {
-    width: 48vw;
+    width: 45vw;
     padding: 2%;
-    padding-top: 4%;
     border-radius: 30px;
     background: $primaryColor;
     position: relative;
@@ -20,13 +19,14 @@
     box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
 
     .meet-our-team-heading {
-      font-size: 48px;
+      font-size: 38px;
       font-family: nunito;
     }
 
     .meet-our-team-lower-div {
       display: flex;
-      margin-top: 10%;
+      margin-top: 6%;
+      align-items: flex-start;
       gap: 10%;
       .learn-more {
         display: flex;
@@ -34,7 +34,7 @@
         align-items: center;
         justify-content: end;
         p {
-          font-size: 34px;
+          font-size: 30px;
           font-weight: bold;
           font-family: nunito;
         }
@@ -45,8 +45,7 @@
 
       .meet-our-team-para {
         flex-basis: 60%;
-
-        font-size: 24px;
+        font-size: 20px;
       }
     }
   }

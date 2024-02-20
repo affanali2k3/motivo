@@ -38,6 +38,16 @@ export const ServicesHorizontalScrollingPage = () => {
       anticipatePin: 2,
       scrub: 1, // For easing the animation
       markers: true, // Shows markers for debugging
+      // onLeave: () => {
+      //   const element = document.getElementById('services-word');
+      //   if (element) {
+      //     // Apply the desired CSS properties
+      //     element.style.position = 'fixed';
+      //   } else {
+      //     console.error("Element with ID 'myElementId' not found.");
+      //   }
+        
+      // } ,
     });
   }, []);
   return (
