@@ -6,6 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 
   .circular-text-image {
     width: 40%;
@@ -50,9 +52,6 @@
     }
   }
 }
-
-
-
 
 @keyframes rotating {
   from {

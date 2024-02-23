@@ -16,7 +16,15 @@ export const MobileMenu = () => {
     <div id="mobile-menu" className="mobile-menu">
       <div className="mobile-align-div">
         <ul>
-          <li>HOME</li>
+          {" "}
+          <a
+            /*         As the position of navbar and homepage was fixed I couldnt scroll based on id.         So instead I scrolled to the starting position x = 0 and y = 0 and it works.       */ onClick={() => {
+              window.location.href = "/";
+            }}
+          >
+            {" "}
+            <li>HOME</li>
+          </a>
           <a onClick={closeMenu} href="#services-horizontal-scrolling-page">
             <li>SERVICES</li>
           </a>

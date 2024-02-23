@@ -12,11 +12,13 @@
   padding: 4%;
   display: none;
   position: fixed;
+  top: 0;
 
   .mobile-align-div {
     display: flex;
     flex-direction: column;
     ul li {
+      cursor: pointer;
       font-family: nunito;
       font-size: 15vw;
     }
@@ -46,7 +48,6 @@
   width: 100vw;
   z-index: 22;
   top: 0;
-  
 
   .navbar-menu {
     display: none;
@@ -57,8 +58,9 @@
     font-size: 38px;
     text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
     transition: 0.6s;
+    cursor: pointer;
   }
-  .navbar-brand-name:hover{
+  .navbar-brand-name:hover {
     transition: 0.6s;
     transform: scale(1.1);
   }
@@ -82,7 +84,7 @@ a {
   transition: 0.6s;
 }
 
-a:hover{
+a:hover {
   transition: 0.6s;
   transform: scale(1.1);
 }
@@ -131,7 +133,5 @@ a:hover{
       transition: 0.5s;
       // transform: rotate(180deg);
     }
-    
-
   }
 }

@@ -1,18 +1,28 @@
 @import "/src/variables.scss";
 
 .services-display-page-main-div {
-  height: 100vh;
+  min-height: 100vh;
   background: $secondaryColor;
   position: relative;
   overflow: hidden;
 
   .services-display-corner-rounded-div {
-    height: 100%;
+    min-height: 100vh;
+
     width: 100vw;
     // min-height: 100vh;
     background: $primaryColor;
     display: flex;
+    flex-direction: column;
+    gap: 100px;
     align-items: center;
+  }
+
+  .first-service {
+    padding-top: 50vh;
+  }
+  .second-service {
+    padding-bottom: 10%;
   }
 
   .digital-marketing-service-card {
@@ -21,17 +31,15 @@
     // width: 45vw;
     // margin-left: 10%;
     // margin-top: 15%;
-
-
-
+    // margin-bottom: 10%;
     position: relative;
     z-index: 2;
     width: 45vw;
     /* margin-left: 20%; */
     /* margin-top: 15%; */
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    // top: 50%;
+    // left: 40%;
+    // transform: translate(-50%, -50%);
 
     .content {
       position: relative;
@@ -107,15 +115,22 @@
   .services-display-page-main-div {
     align-items: end;
     justify-content: end;
+    height: auto;
 
     .services-display-corner-rounded-div {
       border-top-left-radius: 50px;
       border-top-right-radius: 50px;
+      height: auto;
+      gap: 0;
     }
 
     .digital-marketing-service-card {
-      width: calc(1000px - 80vw);
+      // width: calc(1000px - 80vw);
       margin: 10%;
+      transform: none;
+      top: auto;
+      left: auto;
+      width: 80vw;
       .header h3 {
         font-size: 28px;
         text-align: center;

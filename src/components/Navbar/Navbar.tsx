@@ -11,10 +11,7 @@ export const Navbar = () => {
     if (isMenuOpen) {
       navbarIcon!.style.transform = "rotate(180deg)";
       mobileMenu!.style.display = "flex";
-      navbarDiv.setAttribute(
-        "style",
-        "background: none; backdrop-filter: none; border: none; box-shadow: none; z-index: 4;"
-      );
+      navbarDiv.setAttribute("style", "background: none; backdrop-filter: none; border: none; box-shadow: none; z-index: 4;");
     } else {
       navbarIcon!.style.transform = "rotate(0deg)";
       mobileMenu!.style.display = "none";
@@ -26,8 +23,12 @@ export const Navbar = () => {
   };
   return (
     <nav className="navbar-main-div">
-      <a href="#homepage">
-        <h1 className="navbar-brand-name">MOTIVO</h1>
+      <a
+        /*         As the position of navbar and homepage was fixed I couldnt scroll based on id.         So instead I scrolled to the starting position x = 0 and y = 0 and it works.       */ onClick={() => {
+          window.location.href = "/";
+        }}
+      >
+        <h1 className="navbar-brand-name">MOTIVO</h1>{" "}
       </a>
       <ul className="navbar-navigation-items">
         <a href="#services-horizontal-scrolling-page">
@@ -40,13 +41,7 @@ export const Navbar = () => {
           <li>PORTFOLIO</li>
         </a>
       </ul>
-      <img
-        onClick={openNavar}
-        id="navbar-icon"
-        className="navbar-menu"
-        src="/images/menu.png"
-        alt=""
-      ></img>
+      <img onClick={openNavar} id="navbar-icon" className="navbar-menu" src="/images/menu.png" alt=""></img>
     </nav>
   );
 };

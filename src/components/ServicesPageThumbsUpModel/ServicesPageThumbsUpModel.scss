@@ -1,33 +1,49 @@
 @import "/src/variables.scss";
 .services-page-thumbs-up-model {
   position: absolute;
-  // top: 0;
-  left: -10%;
-  bottom: 10%;
-  transform: rotate(-20deg);
+  top: 50vh;
+  // left: 0%;
+  // bottom: 20%;
+  transform: translate(0, -20vw) rotate(-20deg);
 
   canvas {
-    height: 57.143vh !important;
-    width: 108vh !important;
-    transform: translate(300px, 10px) rotate(10deg);
+    height: 30vw !important;
+    width: 60vw !important;
+    // transform: translate(300px, 10px) rotate(10deg);
   }
 }
 
 @media screen and (max-width: $mobile-screen) {
   .services-page-thumbs-up-model {
-    transform: rotate(-50deg) translate(30px, -50px);
+    // transform: translate(0, 0) rotate(0);
+    // right: 50%
+    // left: calc(100px - 10vw);
+    // bottom: auto;
+    // transform: rotate(-50deg) translate(0px, 0px);
+    // canvas {
+    //   transform: none;
+    //   height: 60vw !important;
+    //   width: 100vw !important;
+    // }
+    transform: translate(0, -30vw) rotate(-20deg);
+    // left: 10%;
+    canvas {
+      height: 50vw !important;
+      width: 90vw !important;
+      // transform: translate(300px, 10px) rotate(10deg);
+    }
   }
 }
 @media screen and (max-width: 500px) {
   .services-page-thumbs-up-model {
     // right: 0;
-    top: -20%;
-    left: -40%;
-    transform: rotate(-30deg) translate(0, 0);
+    // top: 20vw;
+    // left: 20vw;
+    // transform: rotate(-30deg) translate(0, 0);
 
-    canvas {
-      height: 40vh !important;
-      width: 80vh !important;
-    }
+    // canvas {
+    //   height: 40vh !important;
+    //   width: 80vh !important;
+    // }
   }
 }

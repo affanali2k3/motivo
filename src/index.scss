@@ -14,6 +14,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +27,17 @@ html {
   // color: white;
 }
 
-p,span,h1,h2,h3,h4,h5,h6,a,div,button{
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+button {
   color: white;
 }
 
@@ -30,8 +45,7 @@ body {
   background: $primaryColor;
 }
 
-
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
   width: 0;
 }

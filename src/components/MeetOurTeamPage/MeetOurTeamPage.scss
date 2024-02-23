@@ -1,0 +1,177 @@
+@import "/src/variables.scss";
+
+.meet-our-team-page-main-div {
+  min-height: 100vh;
+  display: flex;
+  margin: 0 10%;
+  gap: 2%;
+  //   justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  .text-div {
+    background: $secondaryColor;
+    height: 80vh;
+    border-radius: 40px;
+    width: 40vw;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -4px 10px 24px 0 #0000004a, -15px 31px 64px 0 #00000042;
+
+    .we-are-motivo {
+      font-size: 55px;
+      font-family: nunito;
+      span {
+        font-family: nunito;
+        color: $primaryColor;
+      }
+    }
+
+    .main-description {
+      font-size: 20px;
+      line-height: 35px;
+      width: 70%;
+    }
+
+    .meet-motivo-family {
+      font-family: nunito;
+      font-size: 36px;
+      width: 50%;
+      margin-top: 10%;
+
+      span {
+        font-family: nunito;
+        color: $primaryColor;
+      }
+    }
+
+    .meet-family-description {
+      font-size: 21px;
+      width: 60%;
+      line-height: 35px;
+    }
+
+    .button-align-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        padding: 3% 6%;
+        border-radius: 30px;
+        font-size: 27px;
+      }
+    }
+  }
+
+  .image-div {
+    // height: 80vh;
+    position: relative;
+    img {
+      height: 80vh;
+      //   width: 40vw;
+    }
+    .image-name-post {
+      width: 100%;
+      padding: 4%;
+      backdrop-filter: blur(15px);
+      position: absolute;
+      background: #9999991a;
+      bottom: 0;
+      left: 0;
+
+      .name {
+        font-size: 32px;
+        font-family: nunito;
+      }
+
+      .post {
+        font-size: 24px;
+        font-family: nunito;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .meet-our-team-page-main-div {
+    margin: 10% 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    .text-div {
+      width: 650px;
+      margin-top: 5%;
+      height: auto;
+      text-align: center;
+
+      .main-description {
+        width: 100%;
+      }
+
+      .meet-motivo-family {
+        width: 100%;
+      }
+
+      .meet-family-description {
+        width: 100%;
+      }
+    }
+
+    .image-div {
+      img {
+        height: auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: $medium-screen) {
+  .meet-our-team-page-main-div {
+    margin: 10% 10%;
+    .text-div {
+      padding: 6%;
+      width: 650px;
+      margin-top: 10%;
+    }
+  }
+}
+@media screen and (max-width: $mobile-screen) {
+  .meet-our-team-page-main-div {
+    margin: 30% 5%;
+    .text-div {
+      padding: 12%;
+      width: 90vw;
+      margin-top: 10%;
+
+      .we-are-motivo {
+        font-size: 44px;
+      }
+
+      .main-description {
+        font-size: 18px;
+      }
+
+      .meet-motivo-family {
+        font-size: 30px;
+      }
+
+      .meet-family-description {
+        font-size: 18px;
+      }
+
+      .button-align-div {
+        button {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .image-div {
+      width: 90vw;
+      img {
+        width: 90vw;
+      }
+    }
+  }
+}
