@@ -2,7 +2,6 @@ import "./ServicesDisplayPage.scss";
 import { ServicesPageThumbsUpModel } from "../ServicesPageThumbsUpModel/ServicesPageThumbsUpModel";
 import { PrimaryButton } from "../PrimaryButton/PrimaryButton";
 import { ArrowButton } from "../ArrowButton/ArrowButton";
-import { HomepageStandingModel } from "../HomepageStandingModel/HomepageStandingModel";
 export const ServicesDisplayPage = () => {
   return (
     <section className="services-display-page-main-div">
