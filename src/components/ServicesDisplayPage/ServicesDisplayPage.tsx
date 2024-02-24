@@ -16,12 +16,19 @@ export const ServicesDisplayPage = () => {
               <div className="learn-more">
                 <p>learn more!</p>
                 {/* <PrimaryButton text="GET A FREE DEMO" background="#1b35c7" /> */}
-                {window.innerWidth > 800 ? <ArrowButton background="#1b35c7" /> : <PrimaryButton text="GET A FREE DEMO" background="#1b35c7" />}
+                {window.innerWidth > 800 ? (
+                  <ArrowButton background="#1b35c7" />
+                ) : (
+                  <PrimaryButton text="GET A FREE DEMO" background="#f2f2f2" />
+                )}
               </div>
               <div className="para">
-                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Corem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet odio mattis.Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.ac aliquet odio mattis.
+                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.Corem
+                ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.ac
+                aliquet odio mattis.Nunc vulputate libero et velit interdum, ac
+                aliquet odio mattis.ac aliquet odio mattis.
               </div>
             </div>
           </div>
@@ -35,12 +42,19 @@ export const ServicesDisplayPage = () => {
               <div className="learn-more">
                 <p>learn more!</p>
                 {/* <PrimaryButton text="GET A FREE DEMO" background="#1b35c7" /> */}
-                {window.innerWidth > 800 ? <ArrowButton background="#1b35c7" /> : <PrimaryButton text="GET A FREE DEMO" background="#1b35c7" />}
+                {window.innerWidth > 800 ? (
+                  <ArrowButton background="#1b35c7" />
+                ) : (
+                  <PrimaryButton text="GET A FREE DEMO" background="#f2f2f2" />
+                )}
               </div>
               <div className="para">
-                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Corem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet odio mattis.Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.ac aliquet odio mattis.
+                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.Corem
+                ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.ac
+                aliquet odio mattis.Nunc vulputate libero et velit interdum, ac
+                aliquet odio mattis.ac aliquet odio mattis.
               </div>
             </div>
           </div>

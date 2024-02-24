@@ -1,8 +1,7 @@
 import { PrimaryButton } from "../PrimaryButton/PrimaryButton";
 import "./Footer.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnet } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnet } from "@fortawesome/free-solid-svg-icons";
 
 export const Footer = () => {
   return (
@@ -13,14 +12,38 @@ export const Footer = () => {
         </h1>
         <div className="footer-points-cta-div">
           <ul className="footer-points">
-            <li><FontAwesomeIcon id="fontIconMag" icon={faMagnet} rotation={90} style={{color: "#1b35c7",}} />  Get live walkthrough of how we work</li>
-            <li><FontAwesomeIcon id="fontIconMag" icon={faMagnet} rotation={90} style={{color: "#1b35c7",}} />  Explore use cases for your team</li>
-            <li><FontAwesomeIcon id="fontIconMag" icon={faMagnet} rotation={90} style={{color: "#1b35c7",}} />  Explore best pricing plan for you</li>
+            <li>
+              <FontAwesomeIcon
+                id="fontIconMag"
+                icon={faMagnet}
+                rotation={90}
+                style={{ color: "#1b35c7" }}
+              />{" "}
+              Get live walkthrough of how we work
+            </li>
+            <li>
+              <FontAwesomeIcon
+                id="fontIconMag"
+                icon={faMagnet}
+                rotation={90}
+                style={{ color: "#1b35c7" }}
+              />{" "}
+              Explore use cases for your team
+            </li>
+            <li>
+              <FontAwesomeIcon
+                id="fontIconMag"
+                icon={faMagnet}
+                rotation={90}
+                style={{ color: "#1b35c7" }}
+              />{" "}
+              Explore best pricing plan for you
+            </li>
             <p className="contact-support">
               looking for support? connect with our <span>Support Team</span>
             </p>
           </ul>
-          <PrimaryButton text="GET A FREE DEMO" background="#1b35c7" />
+          <PrimaryButton text="GET A FREE DEMO" background="#f2f2f2" />
         </div>
       </div>
     </footer>

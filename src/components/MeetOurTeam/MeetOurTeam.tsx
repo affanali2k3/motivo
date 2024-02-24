@@ -12,13 +12,22 @@ export const MeetOurTeam = () => {
         <div className="meet-our-team-lower-div">
           <div className="learn-more">
             <p>learn more!</p>
-            <a href="/meet-our-team">{window.innerWidth > 800 ? <ArrowButton background="#17161b" /> : <PrimaryButton text="MEET OUR TEAM" background="#1b35c7" />}</a>
+            <a href="/meet-our-team">
+              {window.innerWidth > 800 ? (
+                <ArrowButton background="#17161b" />
+              ) : (
+                <PrimaryButton text="MEET OUR TEAM" background="#f2f2f2" />
+              )}
+            </a>
           </div>
 
           <div className="meet-our-team-para">
             <p>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Corem ipsum dolor sit amet, consectetur
-              adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet odio mattis.Nunc vulputate libero et velit interdum, ac aliquet odio
+              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis.Corem
+              ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+              libero et velit interdum, ac aliquet odio mattis.ac aliquet odio
+              mattis.Nunc vulputate libero et velit interdum, ac aliquet odio
               mattis.ac aliquet odio mattis.
             </p>
           </div>

@@ -14,11 +14,13 @@ export const ServicesHorizontalScrollingPage = () => {
     device width is 300px that means the amount to scroll should be 900px-300px = 600px
     
      */
-    const servicesWord: HTMLElement | null = document.getElementById("services-word");
+    const servicesWord: HTMLElement | null =
+      document.getElementById("services-word");
 
     if (!servicesWord) return;
 
-    const amountToScroll: number = servicesWord.scrollWidth - window.innerWidth;
+    const amountToScroll: number =
+      1 * (servicesWord.scrollWidth - window.innerWidth);
 
     const tween = gsap.to(servicesWord, {
       x: -amountToScroll,
@@ -38,7 +40,7 @@ export const ServicesHorizontalScrollingPage = () => {
       animation: tween,
       anticipatePin: 4,
       scrub: 1, // For easing the animation
-      markers: true, // Shows markers for debugging
+      markers: false, // Shows markers for debugging
       // onLeave: () => {
       //   const element = document.getElementById('services-word');
       //   if (element) {
@@ -52,7 +54,10 @@ export const ServicesHorizontalScrollingPage = () => {
     });
   }, []);
   return (
-    <section id="services-horizontal-scrolling-page" className="services-page-main-div">
+    <section
+      id="services-horizontal-scrolling-page"
+      className="services-page-main-div"
+    >
       <h2 id="services-word" className="services-page-letters">
         SERVICES
       </h2>

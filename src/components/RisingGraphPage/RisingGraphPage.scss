@@ -9,10 +9,12 @@
 
   .rising-graphs-background-text {
     position: absolute;
-    font-size: 30vw;
+    font-size: 10vw;
     width: 100%;
     text-align: center;
-    bottom: 14%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .rising-div {
@@ -31,10 +33,12 @@
 
   .rising-graphs-background-text {
     position: absolute;
-    font-size: 14vw;
+    font-size: 10vw;
     width: 100%;
     text-align: center;
-    bottom: 34%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .rising-div {
@@ -53,16 +57,18 @@
 
   .rising-graphs-background-text {
     position: absolute;
-    font-size: 18vw;
+    font-size: 10vw;
     width: 100%;
     text-align: center;
-    bottom: 34%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .rising-div {
     width: 10%;
     height: 10px;
-    background: #f2f2f2;
+    background: $primaryColor;
     z-index: 1;
   }
 }

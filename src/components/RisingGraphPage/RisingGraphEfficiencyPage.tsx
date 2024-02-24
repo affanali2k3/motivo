@@ -31,7 +31,7 @@ export const RisingGraphEfficiencyPage = () => {
         end: "+=" + 1900,
 
         scrub: 1,
-        // markers: true,
+        markers: false,
       },
     });
 
@@ -50,7 +50,7 @@ export const RisingGraphEfficiencyPage = () => {
           start: "top 0%",
           end: "+=" + (2000 - 170 * i),
           scrub: 1,
-          // markers: true,
+          markers: false,
         },
       });
     }

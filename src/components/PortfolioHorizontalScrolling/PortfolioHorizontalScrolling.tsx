@@ -36,7 +36,7 @@ export const PortfolioHorizontalScrollingPage = () => {
       pin: true,
       animation: tween,
       scrub: 1, // For easing the animation
-      // markers: true, // Shows markers for debugging
+      markers: false, // Shows markers for debugging
     });
   }, []);
   return (
