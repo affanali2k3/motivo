@@ -58,9 +58,15 @@
       justify-content: center;
       align-items: center;
       button {
+        box-shadow: none;
         padding: 3% 6%;
         border-radius: 30px;
         font-size: 27px;
+        color: white;
+      }
+
+      button:hover {
+        color: $secondaryColor;
       }
     }
   }
@@ -84,12 +90,14 @@
       .name {
         font-size: 32px;
         font-family: nunito;
+        color: $secondaryColor;
       }
 
       .post {
         font-size: 24px;
         font-family: nunito;
         font-weight: 300;
+        color: $secondaryColor;
       }
     }
   }

@@ -1,14 +1,16 @@
 @import "/src/variables.scss";
 .services-page-thumbs-up-model {
   position: absolute;
-  top: 50vh;
+  // top: 50vh;
   // left: 0%;
   // bottom: 20%;
-  transform: translate(0, -20vw) rotate(-20deg);
+  // transform: translate(0, -20vw) rotate(-20deg);
+  bottom: 0;
+  right: 0;
 
   canvas {
-    height: 30vw !important;
-    width: 60vw !important;
+    height: 140vh !important;
+    width: 50vw !important;
     // transform: translate(300px, 10px) rotate(10deg);
   }
 }
@@ -25,10 +27,12 @@
     //   height: 60vw !important;
     //   width: 100vw !important;
     // }
-    transform: translate(0, -30vw) rotate(-20deg);
+    // transform: translate(0, -30vw) rotate(-20deg);
     // left: 10%;
+    bottom: 30%;
     canvas {
-      height: 50vw !important;
+      // height: 50vw !important;
+      // height: 230vh !important;
       width: 90vw !important;
       // transform: translate(300px, 10px) rotate(10deg);
     }
