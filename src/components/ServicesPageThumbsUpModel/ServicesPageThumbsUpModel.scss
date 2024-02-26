@@ -5,17 +5,17 @@
   // left: 0%;
   // bottom: 20%;
   // transform: translate(0, -20vw) rotate(-20deg);
-  bottom: 0;
+  bottom: 10%;
   right: 0;
 
   canvas {
-    height: 140vh !important;
-    width: 50vw !important;
+    height: 100vh !important;
+    width: 40vw !important;
     // transform: translate(300px, 10px) rotate(10deg);
   }
 }
 
-@media screen and (max-width: $mobile-screen) {
+@media screen and (max-width: $medium-screen) {
   .services-page-thumbs-up-model {
     // transform: translate(0, 0) rotate(0);
     // right: 50%
@@ -29,7 +29,7 @@
     // }
     // transform: translate(0, -30vw) rotate(-20deg);
     // left: 10%;
-    bottom: 30%;
+    top: 30vh;
     canvas {
       // height: 50vw !important;
       // height: 230vh !important;

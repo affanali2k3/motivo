@@ -7,7 +7,6 @@
   // overflow: hidden;
   // position: relative;
 
-
   top: 0px;
   min-height: 100vh;
   background: #1b35c7;
@@ -71,7 +70,8 @@
 @media screen and (max-width: $mobile-screen) {
   .homepage-main-div {
     .homepage-content {
-      padding-top: calc(300px - 20vw);
+      // padding-top: calc(300px - 20vw);
+      padding-top: 30vh;
       margin-left: 5%;
       .homepage-content-title {
         // display: inline-block;
@@ -93,7 +93,7 @@
           font-size: 36px;
         }
         .homepage-message-para {
-          font-size: 20px;
+          font-size: 15px;
         }
       }
     }

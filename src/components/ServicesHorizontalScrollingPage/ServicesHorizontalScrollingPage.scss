@@ -6,9 +6,10 @@
   overflow-y: hidden;
   display: flex;
   align-items: center;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 
   .services-page-letters {
-    // width: 400vw;
     font-size: 60vh;
   }
 }

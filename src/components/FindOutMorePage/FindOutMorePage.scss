@@ -29,8 +29,21 @@
   }
 
   .call-to-action:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+    background: #f2f2f2 !important;
+    color: black;
+    animation: buttonHover 0.1s forwards 1;
+    transform: scale(1.04);
+    img {
+      filter: invert(100%);
+    }
+  }
+  .call-to-action:active {
+    background: #f2f2f2 !important;
+    color: black;
+    transform: scale(0.96);
+    img {
+      filter: invert(100%);
+    }
   }
 }
 
