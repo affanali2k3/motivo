@@ -13,3 +13,15 @@
     font-size: 60vh;
   }
 }
+
+@media screen and (max-width: $mobile-screen) {
+  .services-page-main-div {
+    height: 100vh;
+
+    position: relative;
+
+    .services-page-letters {
+      font-size: 60vh;
+    }
+  }
+}

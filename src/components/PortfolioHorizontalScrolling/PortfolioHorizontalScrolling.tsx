@@ -12,8 +12,7 @@ export const PortfolioHorizontalScrollingPage = () => {
     device width is 300px that means the amount to scroll should be 900px-300px = 600px
     
      */
-    const servicesWord: HTMLElement | null =
-      document.getElementById("portfolio-word");
+    const servicesWord: HTMLElement | null = document.getElementById("portfolio-word");
 
     if (!servicesWord) return;
 
@@ -32,7 +31,7 @@ export const PortfolioHorizontalScrollingPage = () => {
     ScrollTrigger.create({
       trigger: ".portfolio-page-main-div",
       start: "top 0%",
-      end: "+=" + amountToScroll,
+      end: "+=" + amountToScroll / 2,
       pin: true,
       animation: tween,
       scrub: 1, // For easing the animation
@@ -40,10 +39,7 @@ export const PortfolioHorizontalScrollingPage = () => {
     });
   }, []);
   return (
-    <section
-      id="portfolio-horizontal-scrolling-page"
-      className="portfolio-page-main-div"
-    >
+    <section id="portfolio-horizontal-scrolling-page" className="portfolio-page-main-div">
       <h2 id="portfolio-word" className="portfolio-page-letters">
         PORTFOLIO
       </h2>

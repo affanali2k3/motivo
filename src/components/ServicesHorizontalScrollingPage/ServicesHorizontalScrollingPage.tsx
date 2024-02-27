@@ -14,13 +14,11 @@ export const ServicesHorizontalScrollingPage = () => {
     device width is 300px that means the amount to scroll should be 900px-300px = 600px
     
      */
-    const servicesWord: HTMLElement | null =
-      document.getElementById("services-word");
+    const servicesWord: HTMLElement | null = document.getElementById("services-word");
 
     if (!servicesWord) return;
 
-    const amountToScroll: number =
-      1 * (servicesWord.scrollWidth - window.innerWidth);
+    const amountToScroll: number = 1 * (servicesWord.scrollWidth - window.innerWidth);
 
     const tween = gsap.to(servicesWord, {
       x: -amountToScroll,
@@ -35,10 +33,10 @@ export const ServicesHorizontalScrollingPage = () => {
     ScrollTrigger.create({
       trigger: ".services-page-main-div",
       start: "top 0%",
-      end: "+=" + amountToScroll,
+      end: "+=" + amountToScroll / 2,
       pin: true,
       animation: tween,
-      anticipatePin: 4,
+      // anticipatePin: 4,
       scrub: 1, // For easing the animation
       markers: false, // Shows markers for debugging
       // onLeave: () => {
@@ -54,10 +52,7 @@ export const ServicesHorizontalScrollingPage = () => {
     });
   }, []);
   return (
-    <section
-      id="services-horizontal-scrolling-page"
-      className="services-page-main-div"
-    >
+    <section id="services-horizontal-scrolling-page" className="services-page-main-div">
       <h2 id="services-word" className="services-page-letters">
         SERVICES
       </h2>
