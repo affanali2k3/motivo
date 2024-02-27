@@ -1,8 +1,11 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HomepageStandingModel } from "../HomepageStandingModel/HomepageStandingModel";
 import "./Homepage.scss";
 
-export const Homepage = () => {
+interface props {
+  onModelLoad: () => void;
+}
+export const Homepage: React.FC<props> = (props) => {
   const [isVisible, setIsVisible] = useState(true);
 
   // Function to handle scroll
@@ -23,21 +26,15 @@ export const Homepage = () => {
   }, []);
 
   return (
-    <section
-      id="homepage"
-      className="homepage-main-div"
-      style={{ visibility: isVisible ? "visible" : "hidden" }}
-    >
-      <HomepageStandingModel />
+    <section id="homepage" className="homepage-main-div" style={{ visibility: isVisible ? "visible" : "hidden" }}>
+      <HomepageStandingModel onModelLoad={props.onModelLoad} />
       <div className="homepage-content">
         <h1 className="homepage-content-title">WELCOME TO MOTIVO!</h1>
         <div className="homepage-message-div">
           <h2 className="homepage-message-title">HOME PAGE TITLE TEXT</h2>
           <p className="homepage-message-para">
-            auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
-            Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna.
-            Curabitur vel bibendum lorem. Morbi convallis convallis diam sit
-            amet lacinia. Aliquam in elementum tellus.
+            auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor
+            urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
           </p>
         </div>
       </div>

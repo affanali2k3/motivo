@@ -35,7 +35,7 @@
     // margin-bottom: 10%;
     position: relative;
     z-index: 2;
-    width: 45vw;
+    width: 35vw;
     /* margin-left: 20%; */
     /* margin-top: 15%; */
     // top: 50%;
@@ -57,10 +57,11 @@
     }
 
     .lower {
-      margin-top: 10%;
+      margin-top: 5%;
       display: flex;
       justify-content: space-between;
-      gap: 10%;
+      align-items: center;
+      // gap: 10%;
 
       .learn-more {
         display: flex;
