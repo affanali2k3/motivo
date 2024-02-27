@@ -22,7 +22,7 @@ export const RisingGraphPage = () => {
       animation there should be no gaps. The end for this is same (1900) as the first div. 
      */
     gsap.to(".rising-graphs-sales-main-div", {
-      gap: 0,
+      columnGap: 0,
       duration: 2,
       ease: "none",
       scrollTrigger: {

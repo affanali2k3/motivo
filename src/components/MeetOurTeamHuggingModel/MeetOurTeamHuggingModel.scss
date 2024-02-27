@@ -1,26 +1,28 @@
 @import "/src/variables.scss";
 
 .meet-our-team-hugging-model-main-div {
-  position: absolute;
-  pointer-events: none;
-  // left: 15%;
-  left: -150px;
+  // position: absolute;
+  // pointer-events: none;
+  // // left: 15%;
+  // left: -150px;
 
   // transform: scale(0.9) translateY(-8%);
   // overflow: hidden;
   // top: 0;
+  position: relative;
+  z-index: 1;
 
   canvas {
-    width: 137.5vh !important;
-    height: 100vh !important;
+    width: 75vw !important;
+    height: auto !important;
   }
 }
 
 @media screen and (max-width: $mobile-screen) {
   .meet-our-team-hugging-model-main-div {
     // right: 250%;
-    left: 5%;
-    top: 0;
+    // left: 5%;
+    // top: 0;
 
     canvas {
       width: 90vw !important;

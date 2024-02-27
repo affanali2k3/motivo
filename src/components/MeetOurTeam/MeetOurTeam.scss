@@ -8,13 +8,29 @@
   position: relative;
   overflow: hidden;
 
+  .meet-our-team-model-div {
+    position: absolute;
+    pointer-events: none;
+    // left: 15%;
+    left: -150px;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      // z-index: 22;
+      z-index: 0;
+      bottom: 0;
+    }
+  }
+
   .meet-our-team-content {
     width: 45vw;
     padding: 2%;
     border-radius: 30px;
     background: $primaryColor;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     margin-right: 40px;
     box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
     margin-top: 50px;
@@ -87,12 +103,18 @@
   .meet-our-team-main-div {
     padding-top: 30vh;
 
+    .meet-our-team-model-div {
+      left: 5%;
+      top: 0;
+    }
+
     .meet-our-team-content {
-      width: calc(1000px - 80vw);
+      width: 100vw;
       padding: 10%;
-      margin: 10%;
+      margin: 5%;
       background: rgba(255, 255, 255, 0.01); /* Semi-transparent white background */
       backdrop-filter: blur(30px); /* Apply a blur effect to the background */
+      -webkit-backdrop-filter: blur(30px);
       border-radius: 20px; /* Rounded corners for the container */
       border: 1px solid rgba(255, 255, 255, 0.1); /* Border with some transparency */
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1); /* Multiple shadows for depth */
@@ -100,6 +122,7 @@
 
       .meet-our-team-heading {
         font-size: 38px;
+        text-align: center;
       }
 
       .meet-our-team-lower-div {
@@ -107,6 +130,7 @@
         flex-direction: column-reverse;
         margin-top: 10%;
         gap: 10%;
+        align-items: center;
         .learn-more {
           text-align: center;
           margin-top: 10%;
@@ -120,6 +144,8 @@
         }
 
         .meet-our-team-para {
+          text-align: center;
+
           font-size: 20px;
         }
       }

@@ -5,7 +5,7 @@
   height: auto !important;
   // display: inline;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   right: 0;
   z-index: 0;
 
@@ -20,6 +20,7 @@
 @media screen and (max-width: $mobile-screen) {
   .homepage-standing-model-main-div {
     left: 20%;
+    bottom: 0;
     canvas {
       height: 110vh !important;
       width: auto !important;

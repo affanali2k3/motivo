@@ -38,3 +38,28 @@
     }
   }
 }
+
+@media screen and (max-width: $mobile-screen) {
+  .services-page-thumbs-up-model {
+    // transform: translate(0, 0) rotate(0);
+    // right: 50%
+    // left: calc(100px - 10vw);
+    // bottom: auto;
+    // transform: rotate(-50deg) translate(0px, 0px);
+    // canvas {
+    //   transform: none;
+    //   height: 60vw !important;
+    //   width: 100vw !important;
+    // }
+    // transform: translate(0, -30vw) rotate(-20deg);
+    // left: 10%;
+    transform: translate(-18%, 3%);
+    // top: 30vh;
+    canvas {
+      // height: 50vw !important;
+      height: 87vh !important;
+      width: auto !important;
+      // transform: translate(300px, 10px) rotate(10deg);
+    }
+  }
+}
