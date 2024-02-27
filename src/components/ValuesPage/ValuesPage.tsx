@@ -19,15 +19,9 @@ export const ValuesPage = () => {
       <div className="we-are-here-to-help">
         <h2>WE ARE HERE TO HELP YOU IN YOUR SOCIAL MEDIA MARKETING JOURNEY </h2>
       </div>
-      <Marquee
-        speed={window.innerWidth > 800 ? 200 : 100}
-        className="values-page-moving-values"
-      >
-        <strong> HONESTY, PATIENCE, EFFICIENCY, EFFORT, INTEGRITY</strong>,{" "} 
+      <Marquee speed={window.innerWidth > 800 ? 200 : 100} className="values-page-moving-values">
+        <strong> HONESTY, PATIENCE, EFFICIENCY, EFFORT, INTEGRITY</strong>,{" "}
       </Marquee>
-      <div className="want-to-find-out">
-        <h2>WANT TO FIND OUT WHAT WE OFFER? </h2>
-      </div>
     </section>
   );
 };

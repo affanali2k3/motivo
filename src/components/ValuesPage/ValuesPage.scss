@@ -7,17 +7,15 @@
   overflow: hidden;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  box-shadow: 0 -5px 12px 0 #00000026, 0 -21px 21px 0 #00000021,
-    0 -86px 34px 0 #00000005, 0 -134px 37px 0 #00000000;
+  box-shadow: 0 -5px 12px 0 #00000026, 0 -21px 21px 0 #00000021, 0 -86px 34px 0 #00000005, 0 -134px 37px 0 #00000000;
 
-    margin-top: 100vh;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  margin-top: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
-    :-webkit-scrollbar {
-      display: none;
-    }
-
+  :-webkit-scrollbar {
+    display: none;
+  }
 
   .we-are-here-to-help {
     margin-top: 10vh;
@@ -34,8 +32,7 @@
       font-size: 58px;
       font-family: nunito;
       padding: 2% 5%;
-      box-shadow: 0 -5px 12px 0 #00000026, 0 -21px 21px 0 #00000021,
-        0 -86px 34px 0 #00000005, 0 -134px 37px 0 #00000000;
+      box-shadow: 0 -5px 12px 0 #00000026, 0 -21px 21px 0 #00000021, 0 -86px 34px 0 #00000005, 0 -134px 37px 0 #00000000;
     }
   }
   .want-to-find-out {
@@ -81,7 +78,7 @@
     .values-page-moving-values {
       //   position: relative;
       font-size: 65px;
-      padding-top: 20%;
+      padding-top: 40%;
       // bottom: 50vh;
       transform: rotate(-15deg);
     }
