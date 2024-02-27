@@ -31,7 +31,7 @@ export const PortfolioHorizontalScrollingPage = () => {
     ScrollTrigger.create({
       trigger: ".portfolio-page-main-div",
       start: "top 0%",
-      end: "+=" + amountToScroll / 2,
+      end: window.innerWidth > 800 ? "+=" + amountToScroll : "+=" + amountToScroll / 2,
       pin: true,
       animation: tween,
       scrub: 1, // For easing the animation

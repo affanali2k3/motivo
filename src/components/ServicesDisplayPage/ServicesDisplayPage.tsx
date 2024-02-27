@@ -10,7 +10,7 @@ export const ServicesDisplayPage = () => {
         <div className="digital-marketing-service-card first-service">
           <div className="content">
             <div className="header">
-              <h3>Digital marketing & advertising services</h3>
+              <h3>Digital marketing</h3>
             </div>
             <div className="lower">
               <div className="learn-more">
