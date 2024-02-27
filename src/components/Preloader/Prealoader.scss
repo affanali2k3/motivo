@@ -1,7 +1,9 @@
+@import "/src/variables.scss";
+
 .preloader-main-div {
   width: 100vw;
   height: 100vh;
-  background: black;
+  background: $secondaryColor;
   position: relative;
   display: flex;
   justify-content: center;
