@@ -8,13 +8,13 @@ export const MeetOurTeamPage = () => {
           WE ARE <span>MOTIVO</span>
         </h1>
         <p className="main-description">
-          Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class
-          aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.nostra, per inceptos himenaeos.
+        
+Meet the Motivo Family. Dive into the diverse world of our digital marketing and advertising experts, driven by honesty, creativity, and a shared mission for your success. Our team's unique blend of skills and passion powers your brand's journey towards exceptional results. Discover the faces behind your digital transformation. 
         </p>
         <h2 className="meet-motivo-family">
           MEET THE <span>MOTIVO FAMILY</span>
         </h2>
-        <p className="meet-family-description">our people are well seasoned creatives from all walks of life</p>
+        <p className="meet-family-description">our people are seasoned creatives from all walks of life</p>
 
         <div className="button-align-div">
           <PrimaryButton text="CONNECT WITH US!" background="#1b35c7" />

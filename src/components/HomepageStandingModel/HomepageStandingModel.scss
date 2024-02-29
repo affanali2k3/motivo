@@ -13,14 +13,14 @@
     height: 165vh !important;
     width: auto !important;
     pointer-events: none;
-    transform: translateY(45%);
+    transform: translateY(40%);
   }
 }
 
 @media screen and (max-width: $mobile-screen) {
   .homepage-standing-model-main-div {
-    left: 20%;
-    bottom: 0;
+    left: 25%;
+    bottom: 5%;
     canvas {
       height: 110vh !important;
       width: auto !important;

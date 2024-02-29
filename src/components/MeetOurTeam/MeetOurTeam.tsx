@@ -13,15 +13,13 @@ export const MeetOurTeam = () => {
           <div className="learn-more">
             <p>learn more!</p>
             <a href="/meet-our-team">
-              {window.innerWidth > 800 ? <ArrowButton background="#17161b" /> : <PrimaryButton text="MEET OUR TEAM" background="#f2f2f2" />}
+              {window.innerWidth > 800 ? <ArrowButton background="#1b35c7" /> : <PrimaryButton text="MEET OUR TEAM" background="#f2f2f2" />}
             </a>
           </div>
 
           <div className="meet-our-team-para">
             <p>
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Corem
-              ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet
-              odio mattis.Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet odio mattis.
+              Meet the Heart Behind Motivo. Our team is a blend of creative minds and strategic thinkers, all dedicated to transforming your digital journey with honesty, patience, and efficiency. United by a passion for excellence and a commitment to integrity, we’re here to elevate your brand to new heights. Get to know the experts dedicated to your success.
             </p>
           </div>
         </div>

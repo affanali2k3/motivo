@@ -10,7 +10,7 @@ export const ServicesDisplayPage = () => {
         <div className="digital-marketing-service-card first-service">
           <div className="content">
             <div className="header">
-              <h3>Digital marketing</h3>
+              <h3>Digital Marketing Services</h3>
             </div>
             <div className="lower">
               <div className="learn-more">
@@ -23,9 +23,7 @@ export const ServicesDisplayPage = () => {
                 )}
               </div>
               <div className="para">
-                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.ac aliquet odio mattis.Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet odio mattis.
+              Unlock the full potential of your online presence with Motivo's Digital Marketing Services. From SEO to social media management, we employ a blend of honesty, effort, and efficiency to ensure your brand stands out. Discover how we can elevate your digital footprint.
               </div>
             </div>
           </div>
@@ -46,9 +44,7 @@ export const ServicesDisplayPage = () => {
                 )}
               </div>
               <div className="para">
-                Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.ac aliquet odio mattis.Nunc vulputate libero et velit interdum, ac aliquet odio mattis.ac aliquet odio mattis.
+              Amplify your message with Motivo's Advertising Services. With a foundation built on integrity and patience, we craft compelling advertising strategies that resonate with your target audience. See the difference our dedicated approach makes.
               </div>
             </div>
           </div>

@@ -16,6 +16,7 @@
   z-index: -1;
   width: 100vw;
 
+  
   .homepage-content {
     margin-left: 10%;
     padding-top: 10%;
@@ -32,19 +33,27 @@
       z-index: 1;
       box-shadow: -9px 8px 27px 0px #00000033, -37px 33px 50px 0px #0000002b;
       background: $secondaryColor;
-      padding: 2% 6% 4% 2%;
+      padding: 2% 4% 4% 2%;
       max-width: 34vw;
-
+      
       border-radius: 30px;
       .homepage-message-title {
-        font-size: 56px;
+        font-size: 42px;
+        line-height: 46px;
         font-family: nunito;
+        padding-bottom: 20px;
       }
       .homepage-message-para {
         font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 40px;
       }
     }
   }
+}
+#homepage > div.homepage-content > div > a > button{
+
+  font-size: 25px;
 }
 
 @media screen and (max-width: $medium-screen) {
@@ -68,6 +77,11 @@
 }
 
 @media screen and (max-width: $mobile-screen) {
+
+  #homepage > div.homepage-content > div > a > button{
+    font-size: 16px;
+  }
+
   .homepage-main-div {
     .homepage-content {
       // padding-top: calc(300px - 20vw);
@@ -91,10 +105,14 @@
         padding: 8%;
         max-width: 80vw;
         .homepage-message-title {
-          font-size: 36px;
+          font-size: 26px;
+          line-height: 30px;
+          padding-bottom: 10px;
         }
         .homepage-message-para {
           font-size: 15px;
+          line-height: 23px;
+          margin-bottom: 30px;
         }
       }
     }
