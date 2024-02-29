@@ -6,11 +6,16 @@
   // bottom: 20%;
   // transform: translate(0, -20vw) rotate(-20deg);
   bottom: -1px;
-  left: 20px;
+  left: -65vw;
+  // transform: translateX(0) rotate(0deg);
+  // transform: translateX(1000px) rotate(70deg);
+  // transition: transform 2s;
+
+  pointer-events: none;
 
   canvas {
     height: 100vh !important;
-    width: 113vh !important;
+    width: 50vw !important;
     // transform: translate(300px, 10px) rotate(10deg);
   }
 }
@@ -19,6 +24,8 @@
   .services-page-thumbs-up-model {
     // transform: translate(0, 0) rotate(0);
     // right: 50%
+    left: 30%;
+
     // left: calc(100px - 10vw);
     // bottom: auto;
     // transform: rotate(-50deg) translate(0px, 0px);
@@ -29,7 +36,7 @@
     // }
     // transform: translate(0, -30vw) rotate(-20deg);
     // left: 10%;
-    top: 30vh;
+    top: 0vh;
     canvas {
       // height: 50vw !important;
       // height: 230vh !important;

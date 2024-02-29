@@ -19,14 +19,16 @@ export const MeetOurTeam = () => {
 
           <div className="meet-our-team-para">
             <p>
-              Meet the Heart Behind Motivo. Our team is a blend of creative minds and strategic thinkers, all dedicated to transforming your digital journey with honesty, patience, and efficiency. United by a passion for excellence and a commitment to integrity, we’re here to elevate your brand to new heights. Get to know the experts dedicated to your success.
+              Meet the Heart Behind Motivo. Our team is a blend of creative minds and strategic thinkers, all dedicated to transforming your
+              digital journey with honesty, patience, and efficiency. United by a passion for excellence and a commitment to integrity,
+              we’re here to elevate your brand to new heights. Get to know the experts dedicated to your success.
             </p>
           </div>
         </div>
       </div>
       <div className="meet-our-team-model-div">
         <MeetOurTeamHuggingModel />
-        <img src="/images/meet-our-team-background.jpeg" alt=""></img>
+        <img src="/images/meet-our-team-background.png" alt=""></img>
       </div>
     </section>
   );

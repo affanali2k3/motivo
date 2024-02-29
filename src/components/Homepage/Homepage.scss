@@ -16,7 +16,6 @@
   z-index: -1;
   width: 100vw;
 
-  
   .homepage-content {
     margin-left: 10%;
     padding-top: 10%;
@@ -35,7 +34,7 @@
       background: $secondaryColor;
       padding: 2% 4% 4% 2%;
       max-width: 34vw;
-      
+
       border-radius: 30px;
       .homepage-message-title {
         font-size: 42px;
@@ -51,8 +50,7 @@
     }
   }
 }
-#homepage > div.homepage-content > div > a > button{
-
+#homepage > div.homepage-content > div > a > button {
   font-size: 25px;
 }
 
@@ -77,8 +75,7 @@
 }
 
 @media screen and (max-width: $mobile-screen) {
-
-  #homepage > div.homepage-content > div > a > button{
+  #homepage > div.homepage-content > div > a > button {
     font-size: 16px;
   }
 
@@ -114,6 +111,49 @@
           line-height: 23px;
           margin-bottom: 30px;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 800px) and (max-width: $mobile-screen) {
+  .homepage-main-div {
+    // height: 150vh;
+    .homepage-content {
+      // padding-top: calc(300px - 20vw);
+      padding-top: 30vh;
+      margin-left: 5%;
+      .homepage-content-title {
+        // display: inline-block;
+        max-width: 80%;
+        padding: 3%;
+        margin-bottom: 5%;
+        font-size: 30px;
+        background: #00000012; /* Semi-transparent white background */
+        backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px; /* Rounded corners for the container */
+        border: 1px solid rgba(255, 255, 255, 0.1); /* Border with some transparency */
+        box-shadow: 0 4px 6px rgba(252, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1); /* Multiple shadows for depth */
+        overflow: hidden; /* Ensure content doesn't overflow */
+      }
+      .homepage-message-div {
+        padding: 8%;
+        max-width: 80vw;
+        .homepage-message-title {
+          font-size: 22px;
+          line-height: 30px;
+          padding-bottom: 10px;
+        }
+        .homepage-message-para {
+          font-size: 14x;
+          line-height: 23px;
+          margin-bottom: 30px;
+        }
+      }
+      button {
+        padding: 6px;
+        // display: n;
       }
     }
   }
