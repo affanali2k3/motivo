@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { HomepageStandingModel } from "../HomepageStandingModel/HomepageStandingModel";
 import "./Homepage.scss";
-import { ArrowButton } from "../ArrowButton/ArrowButton";
 import { PrimaryButton } from "../PrimaryButton/PrimaryButton";
 
 interface props {
