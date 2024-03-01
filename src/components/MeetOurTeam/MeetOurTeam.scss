@@ -3,17 +3,12 @@
   min-height: 100vh;
   background: $secondaryColor;
   display: flex;
-  align-items: center;
-  justify-content: end;
+  align-items: end;
+  justify-content: center;
   position: relative;
-  overflow: hidden;
+  overflow-x: clip;
 
   .meet-our-team-model-div {
-    position: absolute;
-    pointer-events: none;
-    // left: 15%;
-    left: -150px;
-
     img {
       position: absolute;
       width: 100%;
@@ -25,7 +20,7 @@
   }
 
   .meet-our-team-content {
-    width: 35vw;
+    width: 45vw;
     padding: 2%;
     border-radius: 30px;
     background: $primaryColor;

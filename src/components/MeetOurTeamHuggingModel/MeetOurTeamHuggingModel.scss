@@ -1,20 +1,30 @@
 @import "/src/variables.scss";
 
 .meet-our-team-hugging-model-main-div {
-  // position: absolute;
-  // pointer-events: none;
-  // // left: 15%;
-  // left: -150px;
-
-  // transform: scale(0.9) translateY(-8%);
-  // overflow: hidden;
-  // top: 0;
-  position: relative;
+  position: absolute;
+  pointer-events: none;
+  left: -40vw;
+  // transform: translateX(55%) rotate(60deg);
+  // transition: transform 2s;
   z-index: 1;
 
   canvas {
-    width: 75vw !important;
-    height: auto !important;
+    height: 136.5vh !important;
+    width: 70vh !important;
+  }
+}
+
+.meet-our-team-peak-model-right-main-div {
+  position: absolute;
+  pointer-events: none;
+  right: -40vw;
+  // transform: translateX(-55%) rotate(-60deg);
+  // transition: transform 2s;
+  z-index: 1;
+
+  canvas {
+    height: 136.5vh !important;
+    width: 70vh !important;
   }
 }
 
