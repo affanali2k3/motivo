@@ -28,7 +28,7 @@ export const Navbar = () => {
           window.location.href = "/";
         }}
       >
-        <h1 className="navbar-brand-name">MOTIVO</h1>{" "}
+        <p className="navbar-brand-name">MOTIVO</p>{" "}
       </a>
       <ul className="navbar-navigation-items">
         <a href="#services-horizontal-scrolling-page">

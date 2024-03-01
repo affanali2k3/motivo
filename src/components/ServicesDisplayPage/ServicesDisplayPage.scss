@@ -4,7 +4,7 @@
   min-height: 100vh;
   background: $secondaryColor;
   position: relative;
-  overflow: hidden;
+  overflow-x: clip;
 
   .services-display-corner-rounded-div {
     min-height: 100vh;
@@ -73,7 +73,6 @@
           font-size: 30px;
           font-family: nunito;
           font-weight: bold;
-
         }
         button {
           margin-top: 10%;
@@ -163,7 +162,6 @@
             padding: 14px 20px;
           }
           p {
-
             text-align: center;
             font-size: 28px;
           }

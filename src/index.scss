@@ -10,6 +10,11 @@
   src: url("/src/assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: nunito-bold;
+  src: url("/src/assets/fonts/Nunito/static/Nunito-SemiBold.ttf");
+}
+
 html {
   scroll-behavior: smooth;
 }
