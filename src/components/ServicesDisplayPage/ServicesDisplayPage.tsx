@@ -18,7 +18,7 @@ export const ServicesDisplayPage = () => {
           if (entry.isIntersecting && window.innerWidth > 1200) {
             // alert(entry.isIntersecting);
             // Perform the animation when the trigger div is visible
-            gsap.to(".services-model", { rotate: 70, x: "55vw", duration: 2 });
+            gsap.to(".services-model", { rotate: 60, x: "55vw", duration: 2 });
             // Optional: Unobserve the element after animation
             observer.unobserve(entry.target);
           }
@@ -44,7 +44,7 @@ export const ServicesDisplayPage = () => {
   }, []); // Empty dependency array means this effect runs once on mount
 
   return (
-    <section className="services-display-page-main-div">
+    <section ref={triggerRef} className="services-display-page-main-div">
       <div className="services-display-corner-rounded-div">
         <ServicesPageThumbsUpModel />
         <div className="digital-marketing-service-card first-service">
@@ -70,7 +70,7 @@ export const ServicesDisplayPage = () => {
             </div>
           </div>
         </div>
-        <div ref={triggerRef} className="digital-marketing-service-card second-service">
+        <div className="digital-marketing-service-card second-service">
           <div className="content">
             <div className="header">
               <h3>Advertising services</h3>

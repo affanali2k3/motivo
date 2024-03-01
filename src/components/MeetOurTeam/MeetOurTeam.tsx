@@ -13,7 +13,7 @@ export const MeetOurTeam = () => {
           <div className="learn-more">
             <p>learn more!</p>
             <a href="/meet-our-team">
-              {window.innerWidth > 800 ? <ArrowButton background="#1b35c7" /> : <PrimaryButton text="MEET OUR TEAM" background="#f2f2f2" />}
+              {window.innerWidth > 800 ? <ArrowButton background="#17161b" /> : <PrimaryButton text="MEET OUR TEAM" background="#f2f2f2" />}
             </a>
           </div>
 
