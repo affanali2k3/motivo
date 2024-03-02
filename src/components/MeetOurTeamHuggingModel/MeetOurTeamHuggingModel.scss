@@ -30,13 +30,19 @@
 
 @media screen and (max-width: $mobile-screen) {
   .meet-our-team-hugging-model-main-div {
-    // right: 250%;
-    // left: 5%;
+    display: none;
     // top: 0;
-
+    // z-index: 2;
     canvas {
+      height: 180vw !important;
       width: 90vw !important;
-      height: 70vw !important;
+    }
+  }
+  .meet-our-team-peak-model-right-main-div {
+    display: none;
+    canvas {
+      height: 136.5vh !important;
+      width: 70vh !important;
     }
   }
 }
